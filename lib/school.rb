@@ -11,7 +11,7 @@ class School
     if !roster.key?(grade)
       roster[grade] = []
     end
-    roster[grade] << nameend
+    roster[grade] << name
   end
 
   def grade(grade)
