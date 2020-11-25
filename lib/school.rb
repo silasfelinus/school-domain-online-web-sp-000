@@ -24,6 +24,6 @@ class School
     roster.keys.each do |key|
       key.sort!
     end
-    roster
+    roster.sort
     end
 end
