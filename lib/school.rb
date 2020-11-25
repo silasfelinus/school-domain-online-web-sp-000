@@ -3,7 +3,7 @@ class School
   @name = name
 
   @roster = {}
-  end 
+  end
 
 
-end 
+end
