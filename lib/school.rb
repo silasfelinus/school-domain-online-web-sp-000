@@ -21,8 +21,8 @@ class School
   end
 
   def sort()
-    roster.keys.each do |grade|
-      roster[grade].sort
+    roster.each do |grade|
+      grade
     end
 end
 end
