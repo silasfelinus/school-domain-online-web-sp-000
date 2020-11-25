@@ -14,7 +14,6 @@ class School
       roster[grade] = []
     end
     roster[grade] << name
-    roster[grade].sort!
   end
 
   def grade(grade)
@@ -22,6 +21,8 @@ class School
   end
 
   def sort()
-    roster.sort
+    roster.map |grade| do
+      roster[grade].sort
+    end
 end
 end
