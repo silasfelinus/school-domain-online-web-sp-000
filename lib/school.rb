@@ -12,7 +12,7 @@ class School
       roster[grade] = []
     end
     roster[grade] << name
-    roster[grade].sort!
+    roster[grade].values.sort!
   end
 
   def grade(grade)
